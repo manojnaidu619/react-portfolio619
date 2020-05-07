@@ -7,9 +7,10 @@ const HeaderCard = () => {
         <div className="header-card">
             <div className="mj-avatar"></div>
             <div className="social-links">
-                <span className="gh-logo"></span>
-                <span className="email-logo"></span>
-                <span className="dev-logo"></span>
+                <a className="gh-logo" href="https://github.com/manojnaidu619" target="_blank"></a>
+                <a className="email-logo" href="mailto:manojnaidu619@gmail.com"></a>
+                <a className="dev-logo" href="https://dev.to/manojnaidu619" target="_blank"></a>
+                <a className="rbgem-logo" href="https://rubygems.org/profiles/manojnaidu619" target="_blank"></a>
             </div>
         </div>
     )

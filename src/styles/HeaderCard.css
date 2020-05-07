@@ -28,12 +28,13 @@
     justify-content: space-evenly;
 }
 
-.gh-logo, .email-logo, .dev-logo{
+.gh-logo, .email-logo, .dev-logo, .rbgem-logo{
     background-size: contain;
     height: 45px;
     width: 45px;
     background-repeat: no-repeat;
     border-radius: 20%;
+    background-position: center;
     box-shadow: 4px 4px 7px #c3c3c3, 
              -4px -4px 7px #ffffff;
 }
@@ -48,4 +49,8 @@
 
 .dev-logo{
     background-image: url(https://cdn1.iconfinder.com/data/icons/logos-and-brands-3/512/84_Dev_logo_logos-512.png);
+}
+
+.rbgem-logo{
+    background-image: url(https://getdrawings.com/free-icon-bw/ruby-icon-1.png);
 }
