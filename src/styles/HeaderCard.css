@@ -23,7 +23,7 @@
 .social-links{
     display: flex;
     flex-direction: row;
-    width: 30%;
+    width: 350px;
     margin-top: 40px;
     justify-content: space-evenly;
 }

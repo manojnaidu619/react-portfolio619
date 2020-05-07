@@ -1,11 +1,13 @@
 import React from 'react'
 import HeaderCard from './Cards/HeaderCard'
+import DomainCard from './Cards/DomainCard'
 
 const App = () => {
     return (
         <div className="container">
             <div className="row">
-                <HeaderCard/>
+                <DomainCard />
+                <DomainCard />
             </div>
         </div>
     )
