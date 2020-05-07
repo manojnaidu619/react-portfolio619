@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 25px;
 }
 
 .mj-avatar{
@@ -20,5 +21,31 @@
 }
 
 .social-links{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
 
+.gh-logo, .email-logo, .dev-logo{
+    background-size: contain;
+    height: 45px;
+    width: 45px;
+    background-repeat: no-repeat;
+    border-radius: 20%;
+    box-shadow: 4px 4px 7px #c3c3c3, 
+             -4px -4px 7px #ffffff;
+}
+
+.gh-logo{
+    background-image: url(https://img.icons8.com/all/500/github.png);
+}
+
+.email-logo{
+    background-image: url(https://img.icons8.com/all/500/gmail.png);
+}
+
+.dev-logo{
+    background-image: url(https://cdn1.iconfinder.com/data/icons/logos-and-brands-3/512/84_Dev_logo_logos-512.png);
 }
