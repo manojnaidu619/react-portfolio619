@@ -1,10 +1,12 @@
 import React from 'react'
-import Card from './card'
+import HeaderCard from './Cards/HeaderCard'
 
 const App = () => {
     return (
-        <div>
-            <Card/>
+        <div className="container">
+            <div className="row">
+                <HeaderCard/>
+            </div>
         </div>
     )
 }
