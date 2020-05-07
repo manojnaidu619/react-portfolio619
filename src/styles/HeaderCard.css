@@ -1,0 +1,24 @@
+.header-card{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mj-avatar{
+    display: block;
+    border-radius: 50%;
+    background: #e5e5e5;
+    box-shadow:  15px 15px 30px #c3c3c3, 
+                -15px -15px 30px #ffffff;
+    height: 150px;
+    width: 150px;  
+    background-image: url(https://cdn.iconscout.com/icon/free/png-512/avatar-380-456332.png);              
+    background-size: contain;
+}
+
+.social-links{
+
+}

@@ -1,7 +1,16 @@
 import React from 'react'
+import '../../styles/HeaderCard.css'
+
 
 const HeaderCard = () => {
-    return ("From Header card")
+    return (
+        <div className="header-card">
+            <div className="mj-avatar"></div>
+            <div className="social-links">
+                
+            </div>
+        </div>
+    )
 }
 
 export default HeaderCard
