@@ -1,11 +1,12 @@
 import React from 'react'
 import DomainCard from '../Cards/DomainCard'
+import '../../styles/Domains/projects.css'
 
 const Projects = () => {
     const frontFace =
         <div className="front-face-card">
             <div className="front-face-card-content">
-                <h1>My recent project <a href="https://github.com/manojnaidu619/Whatsupp-SSH" target="_blank">Whatsupp SSH?</a></h1>
+                <h1>My recent project <a>Whatsupp SSH?</a></h1>
                 <p>A NodeJS application which lets you access your SSH/ computer from anywhere over Whatsapp</p>
             </div>
             <div className="more">See here<img src="https://img.icons8.com/all/500/long-arrow-right.png"/></div>
@@ -17,10 +18,11 @@ const Projects = () => {
             <div className="back-face-card-content">
                 <div className="project">
                     <h2>Whatsupp SSH?</h2>
-                    <p>Access SSH/ home computer from anywhere over Whatsapp</p>
+                    <p>Access SSH/ home computer from anywhere over Whatsapp.</p>
                     <p>Used : NodeJS, AWS EC2</p>
                     <div className="project-links">
                         <a href="https://dev.to/manojnaidu619/whatsupp-ssh-accessing-ssh-over-whatsapp-2g3g" target="_blank">Dev Post</a>
+                        <span>•</span>
                         <a href="https://github.com/manojnaidu619/Whatsupp-SSH" target="_blank">Code</a>
                     </div>
                 </div>
@@ -31,13 +33,14 @@ const Projects = () => {
                     <p>Used : ReactJS</p>
                     <div className="project-links">
                         <a href="https://react-movie-seat-booking.now.sh" target="_blank">Visit</a>
+                        <span>•</span>
                         <a href="https://github.com/manojnaidu619/react-movie-seat-booking" target="_blank">Code</a>
                     </div>
                 </div>
                 <hr />
                 <div className="project">
                     <h2>BrainF**k Interpreter</h2>
-                    <p>Brainfuck interpreter built using Ruby</p>
+                    <p>Brainfuck interpreter built using Ruby.</p>
                     <p>Used : Ruby</p>
                     <div className="project-links">
                         <a href="https://github.com/manojnaidu619/Brainfuck-interpreter" target="_blank">Link</a>
@@ -51,6 +54,7 @@ const Projects = () => {
                     <p>Used : Ruby, Devise, PrawnPDF, ActiveStorage, JSON</p>
                     <div className="project-links">
                         <a href="https://milestone619.herokuapp.com/" target="_blank">Visit</a>
+                        <span>•</span>
                         <a href="https://github.com/manojnaidu619/milestone" target="_blank">Code</a>
                     </div>
                 </div>
@@ -62,7 +66,8 @@ const Projects = () => {
                     <p>Used : Ruby, Rubygem, RSpec, TravisCI</p>
                     <div className="project-links">
                         <a href="https://github.com/manojnaidu619/logging-good" target="_blank">Code</a>
-                        <a href="https://rubygems.org/profiles/manojnaidu619" target="_blank">View all my gems</a>
+                        <span>•</span>
+                        <a href="https://rubygems.org/profiles/manojnaidu619" target="_blank">All Gems</a>
                     </div>
                 </div>
                 <hr/>
@@ -83,6 +88,7 @@ const Projects = () => {
                     <p>Used : Ruby, VueJS, RailsAPI, JSON</p>
                     <div className="project-links">
                         <a href="https://tasky916.herokuapp.com/" target="_blank">Visit</a>
+                        <span>•</span>
                         <a href="https://github.com/manojnaidu619/task-organizer-vue-rails" target="_blank">Code</a>
                     </div>
                 </div>
@@ -94,6 +100,7 @@ const Projects = () => {
                     <p>Used : Ruby, Votable, Likeable, Commentable, Devise</p>
                     <div className="project-links">
                         <a href="https://readit619.herokuapp.com/" target="_blank">Visit</a>
+                        <span>•</span>
                         <a href="https://github.com/manojnaidu619/Read-It" target="_blank">Code</a>
                     </div>
                 </div>
@@ -101,10 +108,11 @@ const Projects = () => {
                 <div className="project">
                     <h2>AlphaBlog</h2>
                     <small>A Blog (My first ever Rails application)</small>
-                    <p>Blog with CRUD operations + auto fetch profile picture with Gravatar API..</p>
+                    <p>Blog with CRUD operations + auto fetch profile picture with Gravatar API.</p>
                     <p>Used : Ruby, Devise, Gravatar, JSON</p>
                     <div className="project-links">
                         <a href="https://alphablog619.herokuapp.com/" target="_blank">Visit</a>
+                        <span>•</span>
                         <a href="https://github.com/manojnaidu619/Alpha_blog" target="_blank">Code</a>
                     </div>
                 </div>

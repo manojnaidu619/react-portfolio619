@@ -31,6 +31,7 @@
     height: 360px;
     padding: 5px;
     margin-top: -20px;
+    letter-spacing: 0.3px;
 }
 
 .back-face-card h1{
@@ -58,6 +59,12 @@ a{
 
 a:visited{
     color: blueviolet;
+}
+
+hr{
+    color: #e5e5e5;
+    width: 50%;
+    margin-top: 22px;
 }
 
 @media only screen and (max-width: 1021px) {
