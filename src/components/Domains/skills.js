@@ -15,12 +15,14 @@ const Skills = () => {
     const backFace = 
         <div className="back-face-card">
             <h1>Skills</h1>
-            <h2>Languages</h2>
-            <p>Ruby, Python, Javascript, C, C++, Brainf**k</p>
-            <h2>Web stuff</h2>
-            <p>Rails, ReactJS, NodeJS, Git, REST API, Jquery, MySQL, Postgresql </p>
-            <h2>Others</h2>
-            <p>Heroku, AWS</p>
+            <div className="back-face-card-content">
+                <h2>Languages</h2>
+                <p>Ruby, Python, Javascript, C, C++, Brainf**k</p>
+                <h2>Web stuff</h2>
+                <p>Rails, ReactJS, NodeJS, Git, REST API, Jquery, MySQL, Postgresql </p>
+                <h2>Others</h2>
+                <p>Heroku, AWS</p>
+            </div>
         </div>
     
     return (

@@ -13,12 +13,14 @@ const Intro = () => {
     const backFace = 
         <div className="back-face-card">
             <h1>About</h1>
-            <p>👋 Hi! I am Manoj Naidu, just a simple dude who believes in learn and <strike>code</strike> explore! </p>
-            <h2>Code Experience</h2>
-            <p>3 years coding (every experiences, studies, personal projects, work...)</p>
-            <p>I'm open to opportunities</p>
-            <h2>Self taught?</h2>
-            <p>Yep!</p>
+            <div className="back-face-card-content">
+                <p>👋 Hi! I am Manoj Naidu, just a simple dude who believes in learn and <strike>code</strike> explore! </p>
+                <h2>Code Experience</h2>
+                <p>3 years coding (every experiences, studies, personal projects, work...)</p>
+                <p>I'm open to opportunities</p>
+                <h2>Self taught?</h2>
+                <p>Yep!</p>
+            </div>
         </div>
     
     return (
