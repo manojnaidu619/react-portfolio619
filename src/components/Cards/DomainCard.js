@@ -5,7 +5,7 @@ import '../../styles/DomainCard.css'
 
 const DomainCard = (props) => {
 
-  const [showDetails, setDetails] = useState(false)
+  const [showDetails, setDetails] = useState(true)
   const mouseEnterHandler = () => { }//setDetails(true)
   const mouseLeaveHandler = () => { }//setDetails(false)
   let presentData = null

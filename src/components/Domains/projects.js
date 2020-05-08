@@ -4,7 +4,7 @@ import '../../styles/Domains/projects.css'
 
 const Projects = () => {
     const frontFace =
-        <div className="front-face-card">
+        <div className="front-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <div className="front-face-card-content">
                 <h1>My recent project <a>Whatsupp SSH?</a></h1>
                 <p>A NodeJS application which lets you access your SSH/ computer from anywhere over Whatsapp</p>
@@ -13,7 +13,7 @@ const Projects = () => {
         </div>
     
     const backFace = 
-        <div className="back-face-card">
+        <div className="back-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <h1>Projects</h1>
             <div className="back-face-card-content">
                 <div className="project">

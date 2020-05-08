@@ -3,7 +3,7 @@ import DomainCard from '../Cards/DomainCard'
 
 const Intro = () => {
     const frontFace =
-        <div className="front-face-card">
+        <div className="front-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <div className="front-face-card-content">
                 <h1>Hello World! 🌎</h1>
             </div>
@@ -11,7 +11,7 @@ const Intro = () => {
         </div>
     
     const backFace = 
-        <div className="back-face-card">
+        <div className="back-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <h1>About</h1>
             <div className="back-face-card-content">
                 <p>👋 Hi! I am Manoj Naidu, just a simple dude who believes in learn and <strike>code</strike> explore! </p>

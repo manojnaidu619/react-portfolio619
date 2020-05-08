@@ -3,7 +3,7 @@ import DomainCard from '../Cards/DomainCard'
 
 const Education = () => {
     const frontFace =
-        <div className="front-face-card">
+        <div className="front-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <div className="front-face-card-content">
                 <h1>I am pursuing my Bachelors in <strong>Computer Science Engineering</strong></h1>
             </div>
@@ -11,7 +11,7 @@ const Education = () => {
         </div>
     
     const backFace = 
-        <div className="back-face-card">
+        <div className="back-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <h1>Studies</h1>
             <div className="back-face-card-content">
                 <h2>Dayananda Sagar University</h2>

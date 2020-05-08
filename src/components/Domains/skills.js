@@ -4,7 +4,7 @@ import '../../styles/Domains/skills.css'
 
 const Skills = () => {
     const frontFace =
-        <div className="front-face-card">
+        <div className="front-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <div className="front-face-card-content">
                 <img className="rails-img" src="https://pngimage.net/wp-content/uploads/2018/06/ruby-on-rails-png-2.png" />
                 <h1>I mainly do Ruby/Rails</h1>
@@ -13,7 +13,7 @@ const Skills = () => {
         </div>
     
     const backFace = 
-        <div className="back-face-card">
+        <div className="back-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <h1>Skills</h1>
             <div className="back-face-card-content">
                 <h2>Languages</h2>
