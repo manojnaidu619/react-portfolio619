@@ -1,6 +1,6 @@
 import React, { useState, Fragment } from 'react'
-import FrontFaceCard from './FrontFaceCard'
-import BackFaceCard from './BackFaceCard'
+import FrontFaceCard from './Wrappers/FrontFaceCard'
+import BackFaceCard from './Wrappers/BackFaceCard'
 import '../../styles/DomainCard.css'
 
 const DomainCard = (props) => {
@@ -18,7 +18,7 @@ const DomainCard = (props) => {
   }
 
   return (
-      <div className="card col-md-5" onMouseEnter={mouseEnterHandler} onMouseLeave={mouseLeaveHandler}>
+      <div className="card" onMouseEnter={mouseEnterHandler} onMouseLeave={mouseLeaveHandler}>
         {presentData}
       </div>
   )

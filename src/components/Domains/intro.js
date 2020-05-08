@@ -1,12 +1,11 @@
 import React from 'react'
 import DomainCard from '../Cards/DomainCard'
-import FrontFaceCard from '../Cards/FrontFaceCard'
-import BackFaceCard from '../Cards/BackFaceCard'
+import '../../styles/Domains/intro.css'
 
 const Intro = () => {
     const frontFace =
         <div>
-            Hello world
+            <h1>Hello world</h1>
         </div>
     
     const backFace = 

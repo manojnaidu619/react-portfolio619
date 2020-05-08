@@ -5,8 +5,10 @@ import Intro from './Domains/intro'
 const App = () => {
     return (
         <div className="container">
-            <div className="row">
-                <Intro/>
+            <div className="row justify-content-center">
+                <Intro />
+                <Intro />
+                <Intro />
             </div>
         </div>
     )
