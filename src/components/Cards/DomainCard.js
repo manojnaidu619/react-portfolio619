@@ -1,27 +1,27 @@
-import React, {useState} from 'react'
+import React, { useState, Fragment } from 'react'
+import FrontFaceCard from './FrontFaceCard'
+import BackFaceCard from './BackFaceCard'
 import '../../styles/DomainCard.css'
 
 const DomainCard = (props) => {
 
-    const [showDetails, setDetails] = useState(false)
+  const [showDetails, setDetails] = useState(false)
+  const mouseEnterHandler = () => setDetails(true)
+  const mouseLeaveHandler = () => setDetails(false)
+  let presentData = null
 
-    const mouseEnterHandler = () => {
-        setDetails(true)
-    }
+  if (!showDetails) {
+    presentData = <FrontFaceCard><Fragment>{props.frontFace}</Fragment></FrontFaceCard>
+  }
+  else{
+    presentData = <BackFaceCard><Fragment>{props.backFace}</Fragment></BackFaceCard>
+  }
 
-    const mouseLeaveHandler = () => {
-        setDetails(false)
-    }
-
-    return (
-        <div className="card" onMouseEnter={mouseEnterHandler} onMouseLeave={mouseLeaveHandler}>
-          {!showDetails ? (
-            <div>Hello</div>
-          ) : (
-            <div>Cool</div>
-          )}   
-        </div>
-    )
+  return (
+      <div className="card col-md-5" onMouseEnter={mouseEnterHandler} onMouseLeave={mouseLeaveHandler}>
+        {presentData}
+      </div>
+  )
 }
 
 export default DomainCard
