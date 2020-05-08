@@ -28,7 +28,7 @@
     justify-content: space-evenly;
 }
 
-.gh-logo, .email-logo, .dev-logo, .rbgem-logo{
+.gh-logo, .email-logo, .dev-logo, .rbgem-logo, .in-logo{
     background-size: contain;
     height: 45px;
     width: 45px;
@@ -53,4 +53,8 @@
 
 .rbgem-logo{
     background-image: url(https://getdrawings.com/free-icon-bw/ruby-icon-1.png);
+}
+
+.in-logo{
+    background-image: url(https://img.icons8.com/all/500/linkedin.png);
 }

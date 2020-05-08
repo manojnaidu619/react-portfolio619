@@ -7,8 +7,6 @@ const App = () => {
         <div className="container">
             <div className="row justify-content-center">
                 <Intro />
-                <Intro />
-                <Intro />
             </div>
         </div>
     )
