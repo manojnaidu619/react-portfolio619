@@ -1,6 +1,5 @@
 import React from 'react'
-import '../../styles/HeaderCard.css'
-
+import '../../styles/HeaderCard.scss'
 
 const HeaderCard = () => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import DomainCard from '../Cards/DomainCard'
-import '../../styles/Domains/projects.css'
+import '../../styles/Domains/projects.scss'
 
 const Projects = () => {
     const frontFace =

@@ -1,6 +1,6 @@
 import React from 'react'
 import DomainCard from '../Cards/DomainCard'
-import '../../styles/Domains/skills.css'
+import '../../styles/Domains/skills.scss'
 
 const Skills = () => {
     const frontFace =

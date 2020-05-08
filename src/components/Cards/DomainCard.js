@@ -1,7 +1,7 @@
 import React, { useState, Fragment } from 'react'
 import FrontFaceCard from './Wrappers/FrontFaceCard'
 import BackFaceCard from './Wrappers/BackFaceCard'
-import '../../styles/DomainCard.css'
+import '../../styles/DomainCard.scss'
 
 const DomainCard = (props) => {
 
