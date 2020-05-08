@@ -1,12 +1,11 @@
 import React from 'react'
 import DomainCard from '../Cards/DomainCard'
-import '../../styles/Domains/skills.scss'
 
 const Skills = () => {
     const frontFace =
         <div className="front-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <div className="front-face-card-content">
-                <img className="rails-img" src="https://pngimage.net/wp-content/uploads/2018/06/ruby-on-rails-png-2.png" />
+                <img style={{"width": "375px"}} src="https://pngimage.net/wp-content/uploads/2018/06/ruby-on-rails-png-2.png" />
                 <h1>I mainly do Ruby/Rails</h1>
             </div>
             <div className="more">More skills <img src="https://img.icons8.com/all/500/long-arrow-right.png"/></div>

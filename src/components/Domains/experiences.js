@@ -15,7 +15,7 @@ const Experiences = () => {
             <h1>Experience</h1>
             <div className="back-face-card-content">
                 <h2>Full Stack Developer Intern</h2>
-                <p>
+                <p style={{ "marginTop": "8px" }}>
                     <a href="https://www.linkedin.com/company/cashtrack/" target="_blank">@CashTrack</a> · Singapore
                 </p>
                 <ul>

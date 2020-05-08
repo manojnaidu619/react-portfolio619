@@ -14,7 +14,7 @@
     flex-direction: column;
     height: 100%;
     .front-face-card-content{
-        min-height: 375px;
+        min-height: 350px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -36,6 +36,9 @@
         margin-top: -20px;
         letter-spacing: 0.3px;
         font-size: 18px;
+        h2{
+            margin-bottom: -10px;
+        }
     }
     h1{
         margin-top: 0px;
@@ -48,6 +51,10 @@
     align-self: flex-end;
     font-weight: 100;
     letter-spacing: 0.5px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 4px 4px 9px #d9d9d9, -4px -4px 9px #ffffff;
     cursor: pointer;
     img{
         width: 20px;
