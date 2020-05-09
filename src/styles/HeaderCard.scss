@@ -35,12 +35,12 @@
     border-radius: 5px;
 }
 
-.gh-logo, .email-logo, .dev-logo, .rbgem-logo, .in-logo{
+.gh-logo, .email-logo, .dev-logo, .rbgem-logo, .in-logo, .cv-logo{
     background-size: 40px;
-    height: 45px;
-    width: 45px;
+    height: 50px;
+    width: 50px;
     background-repeat: no-repeat;
-    border-radius: 20%;
+    border-radius: 10%;
     background-position: center;
     background-color: transparent;
 }
@@ -63,4 +63,9 @@
 
 .in-logo{
     background-image: url(https://pngimg.com/uploads/linkedIn/linkedIn_PNG39.png);
+}
+
+.cv-logo{
+    background-image: url(https://cdn2.iconfinder.com/data/icons/project-management-25/48/118-512.png);
+    background-color: coral;
 }
