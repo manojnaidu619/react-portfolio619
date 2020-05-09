@@ -5,7 +5,7 @@ import '../../styles/DomainCard.scss'
 
 const DomainCard = (props) => {
 
-  const [showDetails, setDetails] = useState(true)
+  const [showDetails, setDetails] = useState(false)
   const mouseEnterHandler = () => { }//setDetails(true)
   const mouseLeaveHandler = () => { }//setDetails(false)
   let presentData = null
@@ -17,8 +17,10 @@ const DomainCard = (props) => {
     presentData = <BackFaceCard><Fragment>{props.backFace}</Fragment></BackFaceCard>
   }
 
+  let classesList = `card ${props.cardClass}`
+
   return (
-      <div className="card" onMouseEnter={mouseEnterHandler} onMouseLeave={mouseLeaveHandler}>
+      <div className={classesList} onMouseEnter={mouseEnterHandler} onMouseLeave={mouseLeaveHandler}>
         {presentData}
       </div>
   )

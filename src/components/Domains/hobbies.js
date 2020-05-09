@@ -23,9 +23,9 @@ const Hobbies = () => {
                     </li>
                     <li>love to play Badminton 🏸</li>
                     <li>
-                        I was recently mindblown by this amazing concept called
-                        <a href="https://en.wikipedia.org/wiki/Mind_uploading" target="_blank"> Whole Brain Emulation/ Mind Uploading</a>
-                        (copying mental state of brain to computer).Digging around it now...
+                        Always fascinated to learn something new in science like 
+                        <a href="https://en.wikipedia.org/wiki/Mind_uploading" target="_blank"> Mind Uploading</a>
+                        . Which I stumbled upon recently.
                     </li>
                     <li>and a whole lot more...</li>
                 </ul>
@@ -35,7 +35,8 @@ const Hobbies = () => {
     return (
         <DomainCard
             frontFace={frontFace}
-            backFace={backFace} />
+            backFace={backFace}
+            cardClass="hobbies-card" />
     )
 }
 

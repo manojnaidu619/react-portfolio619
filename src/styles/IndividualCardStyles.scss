@@ -1,0 +1,43 @@
+
+.intro-card{
+    .front-face-card-content{
+        background-image: url("/images/intro-blob.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        h1{
+            color: #fd5e53;
+        }
+    }
+}
+
+.skills-card{
+    background-color: #c9fdd7;
+    .more{
+        background-color: #21bf73;
+        box-shadow: 4px 4px 12px #21bf73;
+        color: #f9fcfb;
+        font-weight: 700;
+    }
+}
+
+.education-card{
+    background-color: #2f89fc;
+    color: #f5f5f5;
+    .more{
+        box-shadow: none !important;
+        color: #2f89fc;
+        font-weight: 700;
+    }
+}
+
+.experiences-card{
+    background-image: url("/images/projects-card-bg.png");
+    background-position: right;
+    .more{
+        background-color: #edffea;
+        color: #ea6227;
+        font-weight: 700;
+        box-shadow: 4px 4px 12px #edffea;
+    }
+}

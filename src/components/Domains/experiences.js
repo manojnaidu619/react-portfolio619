@@ -40,7 +40,8 @@ const Experiences = () => {
     return (
         <DomainCard
             frontFace={frontFace}
-            backFace={backFace} />
+            backFace={backFace}
+            cardClass="experiences-card" />
     )
 }
 
