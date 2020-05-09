@@ -32,12 +32,32 @@
 }
 
 .experiences-card{
-    background-image: url("/images/projects-card-bg.png");
-    background-position: right;
+    .front-face-card{
+        background-image: url("/images/projects-card-bg.png");
+        background-position: right;
+    }
     .more{
         background-color: #edffea;
         color: #ea6227;
         font-weight: 700;
         box-shadow: 4px 4px 12px #edffea;
+    }
+}
+
+.hobbies-card{
+    .hobbies-ff-text{
+        min-height: 80px;
+        margin: 0px;
+        text-align: center;
+        padding: 5px;
+        h1{
+            font-size: 25px;
+        }
+    }
+    .front-face-card-content{
+        background-image: url(https://media.giphy.com/media/acj7QJGgBBeUg/source.gif);
+        background-size: contain;
+        background-repeat: no-repeat;
+        min-height: 270px !important;
     }
 }

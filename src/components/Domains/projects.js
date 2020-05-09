@@ -9,7 +9,7 @@ const Projects = () => {
                 <h1>Have a look at my latest project <a>Whatsupp SSH?</a></h1>
                 <p>A NodeJS application which lets you access your SSH/ computer from anywhere over Whatsapp</p>
             </div>
-            <div className="more">View more<img src="https://img.icons8.com/all/500/long-arrow-right.png"/></div>
+            <div className="more">View all Projects<img src="https://img.icons8.com/all/500/long-arrow-right.png"/></div>
         </div>
     
     const backFace = 
