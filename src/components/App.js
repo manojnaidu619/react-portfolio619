@@ -6,12 +6,13 @@ import Projects from './Domains/projects'
 import Experiences from './Domains/experiences'
 import Education from './Domains/education'
 import Hobbies from './Domains/hobbies'
+import FooterCard from '../components/Cards/FooterCard'
+
+const getRandomInt = max => {
+    return Math.floor(Math.random() * Math.floor(max));
+}
 
 const App = () => {
-
-    const getRandomInt = max => {
-        return Math.floor(Math.random() * Math.floor(max));
-    }
 
     useEffect(() => {
         const effects = [ "center","top", "left", "bottom", "right"]
@@ -27,12 +28,17 @@ const App = () => {
         <div className="container-fluid">
             <div className="row justify-content-center">
                 <HeaderCard/>
+            </div>
+            <div className="row container cards-container justify-content-center">
                 <Intro />
                 <Skills />
                 <Projects />
                 <Experiences />
                 <Education />
-                <Hobbies/>
+                <Hobbies />
+            </div>
+            <div className="row justify-content-center">
+                <FooterCard/>
             </div>
         </div>
     )

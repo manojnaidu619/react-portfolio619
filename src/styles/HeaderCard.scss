@@ -12,7 +12,6 @@
     background-attachment: fixed;
     transition: 2.25s ease-in-out;
 }
-
 .mj-avatar{
     display: block;
     border-radius: 50%;
@@ -28,8 +27,12 @@
     display: flex;
     flex-direction: row;
     width: 350px;
-    margin-top: 40px;
+    margin: 50px 0px;
     justify-content: space-evenly;
+    background-color: rgba(255,255,255,0.7);
+    padding: 5px;
+    width: 400px;
+    border-radius: 5px;
 }
 
 .gh-logo, .email-logo, .dev-logo, .rbgem-logo, .in-logo{
@@ -39,29 +42,25 @@
     background-repeat: no-repeat;
     border-radius: 20%;
     background-position: center;
-    box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.3);
-    background-color: white;
+    background-color: transparent;
 }
 
 .gh-logo{
-    background-image: url(https://img.icons8.com/all/500/github.png);
+    background-image: url(https://pngimg.com/uploads/github/github_PNG83.png);
 }
 
 .email-logo{
-    //background-image: url(https://img.icons8.com/all/500/gmail.png);
     background-image: url(https://cdn2.iconfinder.com/data/icons/social-icons-color/512/gmail-512.png);
 }
 
 .dev-logo{
-    background-image: url(https://cdn1.iconfinder.com/data/icons/logos-and-brands-3/512/84_Dev_logo_logos-512.png);
+    background-image: url(https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/84_Dev_logo_logos-512.png);
 }
 
 .rbgem-logo{
-    //background-image: url(https://getdrawings.com/free-icon-bw/ruby-icon-1.png);
     background-image: url(https://miro.medium.com/max/470/1*uHOD632-DD5BLu-ptcFgvA.png);
 }
 
 .in-logo{
-    //background-image: url(https://img.icons8.com/all/500/linkedin.png);
     background-image: url(https://pngimg.com/uploads/linkedIn/linkedIn_PNG39.png);
 }

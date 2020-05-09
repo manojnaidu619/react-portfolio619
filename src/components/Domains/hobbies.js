@@ -19,7 +19,7 @@ const Hobbies = () => {
                     <li>Need to go to space atleast once in my lifetime!</li>
                     <li>
                         Keyboard typing ASMRs are so satisfying... Aren't they?.
-                        <a href="https://www.youtube.com/watch?v=Tn8IDh21AVY" target="_blank"> Here is my favourite one!</a>
+                        <a href="https://youtu.be/Tn8IDh21AVY?t=655" target="_blank"> Here is my favourite one!</a>
                     </li>
                     <li>love to play Badminton 🏸</li>
                     <li>

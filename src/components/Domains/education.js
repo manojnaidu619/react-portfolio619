@@ -5,7 +5,7 @@ const Education = () => {
     const frontFace =
         <div className="front-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <div className="front-face-card-content">
-                <h1>I am pursuing my Bachelors in <strong>Computer Science Engineering</strong></h1>
+                <h1>Pursuing my Bachelors in <strong>Computer Science Engineering</strong></h1>
             </div>
             <div className="more">Show more<img src="https://img.icons8.com/all/500/long-arrow-right.png"/></div>
         </div>

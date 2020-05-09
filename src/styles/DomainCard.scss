@@ -1,12 +1,19 @@
+.cards-container{
+    margin: auto !important;
+}
+
 .card{
-    padding: 20px;
+    padding: 22px;
     height: 450px;
     width: 400px;
+    min-width: 400px;
+    min-height: 450px;
     display: flex;
     flex-direction: column;
     margin: 35px;
     border-radius: 25px;
     background: #ffffff;
+    flex-wrap: nowrap;
 }
 
 .front-face-card{
@@ -37,7 +44,7 @@
         letter-spacing: 0.3px;
         font-size: 18px;
         h2{
-            margin-bottom: -10px;
+            margin-bottom: -3px;
         }
     }
     h1{
@@ -81,9 +88,3 @@ ul li{
     list-style: disclosure-closed;
     margin: 6px 0px;
 }
-
-@media only screen and (max-width: 1021px) {
-    .card{
-        flex-wrap: wrap;
-    }
-  }
