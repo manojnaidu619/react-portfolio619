@@ -5,7 +5,7 @@ const Hobbies = () => {
     const frontFace =
         <div className="front-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <div className="front-face-card-content">
-                <h1>Explore space at least once in my lifetime...🚀👽🛰</h1>
+                <h1>Explore space at least once in my lifetime...🚀</h1>
             </div>
             <div className="more">more interests<img src="https://img.icons8.com/all/500/long-arrow-right.png"/></div>
         </div>

@@ -6,14 +6,18 @@
     justify-content: center;
     align-items: center;
     padding: 25px;
+    background-image: url("/design.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-attachment: fixed;
+    transition: 2.25s ease-in-out;
 }
 
 .mj-avatar{
     display: block;
     border-radius: 50%;
     background: #e5e5e5;
-    box-shadow:  15px 15px 30px #c3c3c3, 
-                -15px -15px 30px #ffffff;
+    box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.2);
     height: 150px;
     width: 150px;  
     background-image: url(https://cdn.iconscout.com/icon/free/png-512/avatar-380-456332.png);              
@@ -29,14 +33,14 @@
 }
 
 .gh-logo, .email-logo, .dev-logo, .rbgem-logo, .in-logo{
-    background-size: contain;
+    background-size: 40px;
     height: 45px;
     width: 45px;
     background-repeat: no-repeat;
     border-radius: 20%;
     background-position: center;
-    box-shadow: 4px 4px 7px #c3c3c3, 
-             -4px -4px 7px #ffffff;
+    box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
 }
 
 .gh-logo{
@@ -44,7 +48,8 @@
 }
 
 .email-logo{
-    background-image: url(https://img.icons8.com/all/500/gmail.png);
+    //background-image: url(https://img.icons8.com/all/500/gmail.png);
+    background-image: url(https://cdn2.iconfinder.com/data/icons/social-icons-color/512/gmail-512.png);
 }
 
 .dev-logo{
@@ -52,9 +57,11 @@
 }
 
 .rbgem-logo{
-    background-image: url(https://getdrawings.com/free-icon-bw/ruby-icon-1.png);
+    //background-image: url(https://getdrawings.com/free-icon-bw/ruby-icon-1.png);
+    background-image: url(https://miro.medium.com/max/470/1*uHOD632-DD5BLu-ptcFgvA.png);
 }
 
 .in-logo{
-    background-image: url(https://img.icons8.com/all/500/linkedin.png);
+    //background-image: url(https://img.icons8.com/all/500/linkedin.png);
+    background-image: url(https://pngimg.com/uploads/linkedIn/linkedIn_PNG39.png);
 }
