@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, {useEffect, useState, Suspense} from 'react'
 import HeaderCard from './Cards/HeaderCard'
 import Intro from './Domains/intro'
 import Skills from './Domains/skills'
@@ -23,7 +23,9 @@ const App = () => {
         return (
             <div className="animate__animated animate__fadeIn animate__delay-0.5s container-fluid">
                 <div className="row justify-content-center">
-                    <HeaderCard />
+                    <Suspense fallback={<div>Loading...</div>}>
+                        <HeaderCard />
+                    </Suspense>
                 </div>
                 <div className="row container cards-container justify-content-center">
                     <Intro />
