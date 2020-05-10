@@ -16,14 +16,14 @@ const App = () => {
 
     useEffect(() => {
         DynamicHeader()
-        window.addEventListener('load', () => changeWindowStatus(true))
+        window.addEventListener('load', () => {changeWindowStatus(true)})
     },[])
 
     if (windowstatus) {
         return (
-            <div className="container-fluid">
+            <div className="animate__animated animate__fadeIn animate__delay-0.5s container-fluid">
                 <div className="row justify-content-center">
-                    <HeaderCard/>
+                    <HeaderCard />
                 </div>
                 <div className="row container cards-container justify-content-center">
                     <Intro />
