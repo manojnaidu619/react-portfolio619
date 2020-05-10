@@ -8,10 +8,11 @@
     padding: 25px;
     background-image: url("/images/header-card-bg.png");
     background-repeat: no-repeat;
-    background-color: white;
+    background-position: center, bottom;
+    background-color:#142850;
     background-attachment: fixed;
     transition: 2.25s ease-in-out;
-    height: 400px;
+    height: 500px;
 }
 .mj-avatar{
     display: block;
@@ -31,7 +32,7 @@
     width: 350px;
     margin: 50px 0px;
     justify-content: space-evenly;
-    background-color: rgba(255,255,255,0.7);
+    background-color: whitesmoke;
     padding: 5px;
     width: 400px;
     border-radius: 5px;

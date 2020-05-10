@@ -12,7 +12,7 @@ const Education = () => {
     
     const backFace = 
         <div className="back-face-card animate__animated animate__fadeIn animate__delay-0.5s">
-            <h1>Studies</h1>
+            <h1 className="animate__animated animate__fadeInUp">Studies</h1>
             <div className="back-face-card-content">
                 <h2>Dayananda Sagar University</h2>
                 <small>Bangalore ● 2017-2021</small>

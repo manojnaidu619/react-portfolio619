@@ -14,7 +14,7 @@ const Projects = () => {
     
     const backFace = 
         <div className="back-face-card animate__animated animate__fadeIn animate__delay-0.5s">
-            <h1>Projects</h1>
+            <h1 className="animate__animated animate__fadeInUp">Projects</h1>
             <div className="back-face-card-content">
                 <div className="project">
                     <h2>Whatsupp SSH?</h2>

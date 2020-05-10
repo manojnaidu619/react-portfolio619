@@ -13,7 +13,7 @@ const Hobbies = () => {
     
     const backFace = 
         <div className="back-face-card animate__animated animate__fadeIn animate__delay-0.5s">
-            <h1>Hobbies & Interests</h1>
+            <h1 className="animate__animated animate__fadeInUp">Hobbies & Interests</h1>
             <div className="back-face-card-content">
                 <ul>
                     <li>I ❤️ Gadgets.</li>

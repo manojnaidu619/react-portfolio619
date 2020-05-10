@@ -1,5 +1,7 @@
 .cards-container{
     margin: auto !important;
+    position: relative !important;
+    top: -100px;
 }
 
 .card{
@@ -21,7 +23,7 @@
     flex-direction: column;
     height: 100%;
     .front-face-card-content{
-        min-height: 350px;
+        min-height: 365px;
         display: flex;
         flex-direction: column;
         justify-content: center;

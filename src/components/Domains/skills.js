@@ -14,7 +14,7 @@ const Skills = () => {
     
     const backFace = 
         <div className="back-face-card skills-back-face animate__animated animate__fadeIn animate__delay-0.5s">
-            <h1>Skills</h1>
+            <h1 className="animate__animated animate__fadeInUp">Skills</h1>
             <div className="back-face-card-content">
                 <h2>Languages</h2>
                 <p>Ruby, Python, Javascript, C, C++, Brainf**k</p>

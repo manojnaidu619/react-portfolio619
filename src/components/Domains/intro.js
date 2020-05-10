@@ -13,7 +13,7 @@ const Intro = () => {
     
     const backFace = 
         <div className="back-face-card intro-back-face animate__animated animate__fadeIn animate__delay-0.5s">
-            <h1>About</h1>
+            <h1 className="animate__animated animate__fadeInUp">About</h1>
             <div className="back-face-card-content">
                 <p>👋 Hi! people call me Manoj, just a simple dude who believes in learn and <strike>code</strike> explore! </p>
                 <h2>Code Experience</h2>

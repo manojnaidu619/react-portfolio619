@@ -12,7 +12,7 @@ const Experiences = () => {
     
     const backFace = 
         <div className="back-face-card animate__animated animate__fadeIn animate__delay-0.5s">
-            <h1>Experience & more</h1>
+            <h1 className="animate__animated animate__fadeInUp">Experience & more</h1>
             <div className="back-face-card-content">
                 <h2 style={{"fontSize":"22px"}}>Full Stack Developer Intern</h2>
                 <p style={{ "marginTop": "8px" }}>
