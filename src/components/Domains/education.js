@@ -7,7 +7,7 @@ const Education = () => {
             <div className="front-face-card-content">
                 <h1>Pursuing Bachelors in <strong>Computer Science Engineering</strong> 🖥</h1>
             </div>
-            <div className="more">My Studies<img src="https://img.icons8.com/all/500/long-arrow-right.png"/></div>
+            <div className="more">My Studies<img alt="arrow" src="https://img.icons8.com/all/500/long-arrow-right.png"/></div>
         </div>
     
     const backFace = 
