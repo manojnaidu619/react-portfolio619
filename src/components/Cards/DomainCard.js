@@ -5,10 +5,21 @@ import '../../styles/DomainCard.scss'
 
 const DomainCard = (props) => {
 
-  const [showDetails, setDetails] = useState(false)
-  const mouseEnterHandler = () => setDetails(true)
-  const mouseLeaveHandler = () => setDetails(false)
+  let classesList = `card ${props.cardClass}`
+  let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   let presentData = null
+
+  const [showDetails, setDetails] = useState(false)
+
+  const mouseEnterHandler = () => {
+    if(!isMobile) setDetails(true)
+  }
+  const mouseLeaveHandler = () => {
+    if(!isMobile) setDetails(false)
+  }
+  const onClickHandler = () => {
+    if(isMobile) setDetails(!showDetails)
+  }
 
   if (!showDetails) {
     presentData = <FrontFaceCard><Fragment>{props.frontFace}</Fragment></FrontFaceCard>
@@ -17,12 +28,10 @@ const DomainCard = (props) => {
     presentData = <BackFaceCard><Fragment>{props.backFace}</Fragment></BackFaceCard>
   }
 
-  let classesList = `card ${props.cardClass}`
-
   return (
-      <div className={classesList} onMouseEnter={mouseEnterHandler} onMouseLeave={mouseLeaveHandler}>
+    <div className={classesList} onClick={onClickHandler} onMouseEnter={mouseEnterHandler} onMouseLeave={mouseLeaveHandler}>
         {presentData}
-      </div>
+    </div>
   )
 }
 
