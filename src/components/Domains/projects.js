@@ -6,7 +6,7 @@ const Projects = () => {
     const frontFace =
         <div className="front-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <div className="front-face-card-content">
-                <h1>Have a look at my latest project <span class="latest-project-title">Whatsupp SSH?</span></h1>
+                <h1>Have a look at my latest project <span className="latest-project-title">Whatsupp SSH?</span></h1>
                 <p>A NodeJS application which lets you access your SSH/ computer from anywhere over Whatsapp</p>
             </div>
             <div className="more">View all Projects<img alt="project-link" src="https://img.icons8.com/all/500/long-arrow-right.png"/></div>

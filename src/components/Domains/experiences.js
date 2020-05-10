@@ -29,7 +29,7 @@ const Experiences = () => {
                 <ul>
                     <li>Attend hackathons/ Tech-talks to gain <strike>Tshirt</strike> knowledge <span role="img" aria-label="smiley-emoji">😁</span>.</li>
                     <li>
-                        Participate in online progamming contests(spare time activity). Have a look at my 
+                        Participate in online progamming contests(spare time activity). Checkout my 
                         <a href="https://leetcode.com/manojnaidu619/" target="_blank" rel="noopener noreferrer"> leetcode profile</a>.
                     </li>
                     <li>Develop open-source applications.</li>
