@@ -12,7 +12,7 @@
     background-color:#142850;
     background-attachment: fixed;
     transition: 2.25s ease-in-out;
-    height: 500px;
+    height: 375px;
 }
 .mj-avatar{
     display: block;
@@ -35,13 +35,23 @@
     background-color: whitesmoke;
     padding: 5px;
     width: 400px;
+    height: 50px;
+    align-items: center;
     border-radius: 5px;
 }
 
-.gh-logo, .email-logo, .dev-logo, .rbgem-logo, .in-logo, .cv-logo{
-    background-size: 40px;
-    height: 50px;
-    width: 50px;
+.cv-link{
+    //color: #fd5e53;
+    color: blueviolet;
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.gh-logo, .dev-logo, .rbgem-logo, .in-logo{
+    background-size: 30px;
+    height: 30px;
+    width: 30px;
     background-repeat: no-repeat;
     border-radius: 10%;
     background-position: center;
@@ -49,26 +59,17 @@
 }
 
 .gh-logo{
-    background-image: url(https://pngimg.com/uploads/github/github_PNG83.png);
-}
-
-.email-logo{
-    background-image: url(https://cdn2.iconfinder.com/data/icons/social-icons-color/512/gmail-512.png);
+    background-image: url("/images/github.png");
 }
 
 .dev-logo{
-    background-image: url(https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/84_Dev_logo_logos-512.png);
+    background-image: url("/images/dev.png");
 }
 
 .rbgem-logo{
-    background-image: url(https://miro.medium.com/max/470/1*uHOD632-DD5BLu-ptcFgvA.png);
+    background-image: url("/images/ruby.png");
 }
 
 .in-logo{
-    background-image: url(https://pngimg.com/uploads/linkedIn/linkedIn_PNG39.png);
-}
-
-.cv-logo{
-    background-image: url(https://cdn2.iconfinder.com/data/icons/project-management-25/48/118-512.png);
-    background-color: coral;
+    background-image: url("/images/linkedin.png");
 }
