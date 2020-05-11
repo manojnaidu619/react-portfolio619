@@ -16,18 +16,21 @@ const Contact = () => {
         event.preventDefault()
         const sumbitBtn = document.querySelector(".form-submit-btn")
         sumbitBtn.disabled = true
-        sumbitBtn.innerText = "SENDING..."
+        sumbitBtn.textContent = "SENDING..."
 
         const formErr = FormSanitizerAndSubmitter(name, email, message, event.target)
         if (typeof (formErr) == 'string') changeErrmsg(formErr)
         if (typeof (formErr) == 'object') {
             formErr
-                .then(r => changeSubmitStatus(true))
+                .then(r => {
+                    changeSubmitStatus(true)
+                    changeErrmsg(false)
+                })
                 .catch(r => {return "There's some error!, try again later sometime..." });   
         }
 
         sumbitBtn.disabled = false
-        sumbitBtn.innerText = "SEND."
+        sumbitBtn.textContent = "SEND"
     }
 
     if (submitStatus) {
