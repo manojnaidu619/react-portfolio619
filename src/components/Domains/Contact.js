@@ -1,0 +1,25 @@
+import React from 'react'
+import DomainCard from '../Cards/DomainCard'
+import "../../styles/IndividualCardStyles.scss"
+
+const Languages = () => {
+    const frontFace =
+        <div className="front-face-card intro-front-face animate__animated animate__fadeIn animate__delay-0.5s">
+            <div className="front-face-card-content">         
+                <h1></h1>
+            </div>
+            <div className="more">See here<img alt="arrow" src="https://img.icons8.com/all/500/long-arrow-right.png"/></div>
+        </div>
+    
+    const backFace = 
+        <div className="back-face-card intro-back-face animate__animated animate__fadeIn animate__delay-0.5s"></div>
+    
+    return (
+        <DomainCard
+            frontFace={frontFace}
+            backFace={backFace}
+            cardClass="contact-card" />
+    )
+}
+
+export default Languages

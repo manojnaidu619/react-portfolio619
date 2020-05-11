@@ -15,14 +15,14 @@ const Education = () => {
             <h1 className="animate__animated animate__fadeInUp">Studies</h1>
             <div className="back-face-card-content">
                 <h2>Dayananda Sagar University</h2>
-                <small>Bangalore ● 2017-2021</small>
+                <small>Bangalore • 2017-2021</small>
                 <p>Bachelors in Computer Science Engineering</p>
 
                 <h2>Narayana PU College</h2>
-                <p>Bangalore ● 2015-2017</p>
+                <p>Bangalore • 2015-2017</p>
 
                 <h2>Vidhatha Global High School</h2>
-                <p>Bangalore ● 2004-2015</p>
+                <p>Bangalore • 2004-2015</p>
             </div>
         </div>
     
