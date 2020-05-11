@@ -9,16 +9,25 @@ const Contact = () => {
     const [email, changeEmail] = useState('')
     const [message, changeMessage] = useState('')
     const [errmsg, changeErrmsg] = useState(false)
-    const [submitStatus, changeSubmitStatus] = useState(true)
+    const [submitStatus, changeSubmitStatus] = useState(false)
     let cardContent = null
 
     const onSubmitHandler = (event) => {
         event.preventDefault()
+        const sumbitBtn = document.querySelector(".form-submit-btn")
+        sumbitBtn.disabled = true
+        sumbitBtn.innerText = "SENDING..."
+
         const formErr = FormSanitizerAndSubmitter(name, email, message, event.target)
         if (typeof (formErr) == 'string') changeErrmsg(formErr)
-        if (typeof (formErr) == 'boolean') {
-            changeSubmitStatus(true)
+        if (typeof (formErr) == 'object') {
+            formErr
+                .then(r => changeSubmitStatus(true))
+                .catch(r => {return "There's some error!, try again later sometime..." });   
         }
+
+        sumbitBtn.disabled = false
+        sumbitBtn.innerText = "SEND."
     }
 
     if (submitStatus) {
@@ -30,16 +39,25 @@ const Contact = () => {
             </div>
     } else {
         cardContent = 
-        <div className="front-face-card-content contact-card">         
-            <form action="https://formspree.io/mpzywrqy" method="POST" onSubmit={onSubmitHandler}>
-                <input type="text" name="name" onChange={e => changeName(e.target.value)} value={name} />
-                <br/>
-                <input type="email" name="_replyto" onChange={e => changeEmail(e.target.value)} value={email} />
-                <br />
-                <textarea type="text" name="message" onChange={e => changeMessage(e.target.value)} value={message} />
-                <br/>
-                <input type="submit" value="Send"/>
-            </form>
+            <div className="front-face-card-content contact-card">  
+            <h1>Contact form</h1> 
+            <div className="contact-form">
+                <form action="https://formspree.io/mpzywrqy" method="POST" onSubmit={onSubmitHandler}>
+                    <div className="name-div">
+                        <label htmlFor="name">Name</label><br/>
+                        <input type="text" name="name" onChange={e => changeName(e.target.value)} value={name} />
+                    </div>
+                    <div className="email-div">
+                        <label htmlFor="_replyto">Email</label><br/>
+                        <input type="email" name="_replyto" onChange={e => changeEmail(e.target.value)} value={email} />
+                    </div>
+                    <div className="msg-div">
+                        <label htmlFor="message">Message</label><br/>
+                        <textarea name="message" onChange={e => changeMessage(e.target.value)} value={message} />
+                    </div>
+                    <button className="form-submit-btn" type="submit">SEND</button>
+                </form>
+            </div>
         </div>
     }
 
