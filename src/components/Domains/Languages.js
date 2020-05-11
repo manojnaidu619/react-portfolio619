@@ -16,11 +16,11 @@ const Languages = () => {
             <h1 className="animate__animated animate__fadeInUp">I Speak</h1>
             <div className="back-face-card-content">
                 <ul>
-                    <li>English</li>
-                    <li>Kannada</li>
-                    <li>Hindi</li>
-                    <li>Tamil</li>
-                    <li>Telugu</li>
+                    <li>Hello - English</li>
+                    <li>ನಮಸ್ಕಾರ - Kannada<small> (native)</small></li>
+                    <li>नमस्ते - Hindi</li>
+                    <li>வணக்கம் - Tamil</li>
+                    <li>వందనం - Telugu</li>
                 </ul>
             </div>
         </div>
