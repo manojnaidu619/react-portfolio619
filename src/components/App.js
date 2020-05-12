@@ -19,7 +19,7 @@ const App = () => {
     useEffect(() => {
         DynamicHeader()
         changeWindowStatus(true)
-    })
+    }, [windowstatus])
 
     if (windowstatus) {
         return (
