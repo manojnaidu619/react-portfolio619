@@ -19,7 +19,7 @@ const App = () => {
     useEffect(() => {
         DynamicHeader()
         window.addEventListener('load', () => {changeWindowStatus(true)})
-    },[])
+    })
 
     if (windowstatus) {
         return (
