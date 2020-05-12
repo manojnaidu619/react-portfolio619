@@ -1,4 +1,3 @@
-
 var CACHE_NAME = 'pwa-manoj-naidu';
 var urlsToCache = ['/'];
 
@@ -8,7 +7,6 @@ self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(function(cache) {
-        console.log('Opened cache');
         return cache.addAll(urlsToCache);
       })
   );
@@ -31,7 +29,7 @@ self.addEventListener('fetch', event => {
 
 // Update a service worker
 self.addEventListener('activate', event => {
-  var cacheWhitelist = ['pwa-task-manager'];
+  var cacheWhitelist = ['pwa-manoj-naidu'];
   event.waitUntil(
     caches.keys().then(cacheNames => {
       return Promise.all(
