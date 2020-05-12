@@ -18,12 +18,12 @@ const App = () => {
 
     useEffect(() => {
         DynamicHeader()
-        changeWindowStatus(true)
+        setTimeout(() => changeWindowStatus(true), 2000 )  
     }, [windowstatus])
 
     if (windowstatus) {
         return (
-            <div className="animate__animated animate__fadeIn animate__delay-0.8s container-fluid">
+            <div className="animate__animated animate__fadeIn animate__delay-0.5s container-fluid">
                 <div className="row justify-content-center">
                     <Suspense fallback={<div>Loading...</div>}>
                         <HeaderCard />
