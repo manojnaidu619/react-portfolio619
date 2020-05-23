@@ -40,7 +40,7 @@
 
 .back-face-card{
     .back-face-card-content{
-        overflow: auto;
+        overflow: auto !important;
         height: 365px;
         padding: 5px;
         margin-top: -20px;
@@ -96,6 +96,15 @@ ul{
         list-style: disclosure-closed;
         margin: 6px 0px;
     }
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.4);
 }
 
 @media only screen and (max-width: 600px){

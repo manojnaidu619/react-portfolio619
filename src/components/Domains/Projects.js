@@ -6,8 +6,8 @@ const Projects = () => {
     const frontFace =
         <div className="front-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <div className="front-face-card-content">
-                <h1>Have a look at my latest project <span className="latest-project-title">Whatsupp SSH?</span></h1>
-                <p>A NodeJS application which lets you access your SSH/ computer from anywhere over Whatsapp</p>
+                <h1>My latest project <span className="latest-project-title">Cocktail Chief</span></h1>
+                <p>A native android app to explore the world of cocktails</p>
             </div>
             <div className="more">View all Projects<img alt="project-link" src="https://img.icons8.com/all/500/long-arrow-right.png"/></div>
         </div>
@@ -17,8 +17,18 @@ const Projects = () => {
             <h1 className="animate__animated animate__fadeInUp">Projects</h1>
             <div className="back-face-card-content">
                 <div className="project">
+                    <h2>Cocktail Chief</h2>
+                    <p>Friend of every cocktail lover.</p>
+                    <p>Used : React Native, CocktailDB</p>
+                    <div className="project-links">
+                        <a alt="project-link" href="https://cocktail-chief-web.now.sh/" target="_blank" rel="noopener noreferrer">Download</a>
+                        <span>•</span>
+                        <a alt="code-link" href="https://github.com/manojnaidu619/cocktail-chief" target="_blank" rel="noopener noreferrer">Code</a>
+                    </div>
+                </div>
+                <div className="project">
                     <h2>Whatsupp SSH?</h2>
-                    <p>Access SSH/ home computer from anywhere over Whatsapp.</p>
+                    <p>Access SSH/ home computer from anywhere over whatsapp.</p>
                     <p>Used : NodeJS, AWS EC2</p>
                     <div className="project-links">
                         <a alt="post-link" href="https://dev.to/manojnaidu619/whatsupp-ssh-accessing-ssh-over-whatsapp-2g3g" target="_blank" rel="noopener noreferrer">Dev Post</a>
@@ -28,22 +38,22 @@ const Projects = () => {
                 </div>
                 <hr />
                 <div className="project">
-                    <h2>Movie seat booking</h2>
-                    <p>A ReactJS app replicating movie seats booking.</p>
+                    <h2>BrainF**k Interpreter</h2>
+                    <p>Brainfuck interpreter built using ruby.</p>
+                    <p>Used : Ruby</p>
+                    <div className="project-links">
+                        <a alt="code-link" href="https://github.com/manojnaidu619/Brainfuck-interpreter" target="_blank" rel="noopener noreferrer">Link</a>
+                    </div>
+                </div>
+                <hr />
+                <div className="project">
+                    <h2>Movie Seat Booking</h2>
+                    <p>ReactJS app replicating movie seats booking.</p>
                     <p>Used : ReactJS</p>
                     <div className="project-links">
                         <a alt="project-link" href="https://react-movie-seat-booking.now.sh" target="_blank" rel="noopener noreferrer">Visit</a>
                         <span>•</span>
                         <a alt="code-link" href="https://github.com/manojnaidu619/react-movie-seat-booking" target="_blank" rel="noopener noreferrer">Code</a>
-                    </div>
-                </div>
-                <hr />
-                <div className="project">
-                    <h2>BrainF**k Interpreter</h2>
-                    <p>Brainfuck interpreter built using Ruby.</p>
-                    <p>Used : Ruby</p>
-                    <div className="project-links">
-                        <a alt="code-link" href="https://github.com/manojnaidu619/Brainfuck-interpreter" target="_blank" rel="noopener noreferrer">Link</a>
                     </div>
                 </div>
                 <hr />
@@ -61,7 +71,7 @@ const Projects = () => {
                 <hr />
                 <div className="project">
                     <h2>Logging Good</h2>
-                    <small>A friendly Ruby gem</small>
+                    <small>A friendly ruby gem</small>
                     <p>Gem to make Rails logging more intuitive by presenting essential data in a tabular form.</p>
                     <p>Used : Ruby, Rubygem, RSpec, TravisCI</p>
                     <div className="project-links">
@@ -73,7 +83,7 @@ const Projects = () => {
                 <hr/>
                 <div className="project">
                     <h2>Pickup Master</h2>
-                    <small>A Google Assistant action</small>
+                    <small>Google assistant action</small>
                     <p>A voice invoked google action voice built with Dialogflow API + Firebase Cloud functions.</p>
                     <p>Used : G-assistant, G-actions, Dialogflow, firebase-serverless</p>
                     <div className="project-links">
@@ -83,7 +93,7 @@ const Projects = () => {
                 <hr/>
                 <div className="project">
                     <h2>Tasky</h2>
-                    <small>Task-Organizer App</small>
+                    <small>Task organizer app</small>
                     <p>Vue.js + Rails, makes Managing Tasks and To-Do's much more cushier.</p>
                     <p>Used : Ruby, VueJS, RailsAPI, JSON</p>
                     <div className="project-links">
@@ -107,7 +117,7 @@ const Projects = () => {
                 <hr/>
                 <div className="project">
                     <h2>AlphaBlog</h2>
-                    <small>A Blog (My first ever Rails application)</small>
+                    <small>A blog (My first ever rails application)</small>
                     <p>Blog with CRUD operations + auto fetch profile picture with Gravatar API.</p>
                     <p>Used : Ruby, Devise, Gravatar, JSON</p>
                     <div className="project-links">
