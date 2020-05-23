@@ -39,6 +39,7 @@ const Skills = () => {
                 <ul>
                     <li>MySQL</li>
                     <li>Postgresql</li>
+                    <li>Redis</li>
                     <li>MongoDB</li>
                 </ul>
                 <h2>Others</h2>
