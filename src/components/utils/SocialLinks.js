@@ -17,7 +17,7 @@ const SocialLinks = () => {
                 <img src="/images/linkedin.png" width="30" alt="linkedin"/>
             </a>
             <a alt="dev.to" href="https://dev.to/manojnaidu619" target="_blank" rel="noopener noreferrer" aria-label="devto-link">
-                <img src="/images/dev.webp" width="30" alt="dev.to"/>
+                <img src="/images/dev.png" width="30" alt="dev.to"/>
             </a>
         </div>
     )
