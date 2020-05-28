@@ -26,6 +26,7 @@ const Projects = () => {
                         <a alt="code-link" href="https://github.com/manojnaidu619/cocktail-chief" target="_blank" rel="noopener noreferrer">Code</a>
                     </div>
                 </div>
+                <hr />
                 <div className="project">
                     <h2>Whatsupp SSH?</h2>
                     <p>Access SSH/ home computer from anywhere over whatsapp.</p>
