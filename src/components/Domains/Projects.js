@@ -57,13 +57,11 @@ const Projects = () => {
                 </div>
                 <hr />
                 <div className="project">
-                    <h2>Movie Seat Booking</h2>
-                    <p>ReactJS app replicating movie seats booking.</p>
-                    <p>Used : ReactJS</p>
+                    <h2>React - Youtube</h2>
+                    <p>ReactJS app replicating youtube.</p>
+                    <p>Used : ReactJS, Youtube API</p>
                     <div className="project-links">
-                        <a alt="project-link" href="https://react-movie-seat-booking.now.sh" target="_blank" rel="noopener noreferrer">Visit</a>
-                        <span>•</span>
-                        <a alt="code-link" href="https://github.com/manojnaidu619/react-movie-seat-booking" target="_blank" rel="noopener noreferrer">Code</a>
+                        <a alt="code-link" href="https://github.com/manojnaidu619/react-youtube" target="_blank" rel="noopener noreferrer">Code</a>
                     </div>
                 </div>
                 <hr />

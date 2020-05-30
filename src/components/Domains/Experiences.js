@@ -27,7 +27,7 @@ const Experiences = () => {
                 <hr />
                 <h2>Also <span role="img" aria-label="haert-emoji">❤️</span> to...</h2>
                 <ul>
-                    <li>Attend hackathons/ Tech-talks to gain <strike>Tshirt</strike> knowledge <span role="img" aria-label="smiley-emoji">😁</span>.</li>
+                    <li>Attend hackathons/ Tech-talks to gain <strike>free Tshirt</strike> knowledge <span role="img" aria-label="smiley-emoji">😁</span>.</li>
                     <li>
                         Participate in online progamming contests(spare time activity). Checkout my 
                         <a href="https://leetcode.com/manojnaidu619/" target="_blank" rel="noopener noreferrer"> leetcode profile</a>.

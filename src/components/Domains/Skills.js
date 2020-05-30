@@ -43,7 +43,7 @@ const Skills = () => {
                     <li>MongoDB</li>
                 </ul>
                 <h2>Others</h2>
-                <p>Git & Github, Jquery, REST API, Web Automation, UNIX, Heroku, AWS.</p>
+                <p>Git & Github, HTML, CSS, Jquery, REST API, Web Automation, UNIX, Heroku, AWS.</p>
             </div>
         </div>
     
