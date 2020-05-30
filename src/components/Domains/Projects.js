@@ -6,8 +6,8 @@ const Projects = () => {
     const frontFace =
         <div className="front-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <div className="front-face-card-content">
-                <h1>My latest project <span className="latest-project-title">Cocktail Chief</span></h1>
-                <p>A native android app to explore the world of cocktails</p>
+                <h1>My latest project <span className="latest-project-title">BOOKMYGIG</span></h1>
+                <p>A platform for creators to perform live online shows.</p>
             </div>
             <div className="more">View all Projects<img alt="project-link" src="https://img.icons8.com/all/500/long-arrow-right.png"/></div>
         </div>
