@@ -17,6 +17,15 @@ const Projects = () => {
             <h1 className="animate__animated animate__fadeInUp">Projects</h1>
             <div className="back-face-card-content">
                 <div className="project">
+                    <h2>BOOKMYGIG</h2>
+                    <p>A platform where creators perform live online shows for live audiences.</p>
+                    <p>Used : ReactJS, NodeJS, Redis, Socket.io</p>
+                    <div className="project-links">
+                        <a alt="code-link" href="https://github.com/manojnaidu619/bookmygig-frontend" target="_blank" rel="noopener noreferrer">Code</a>
+                    </div>
+                </div>
+                <hr/>
+                <div className="project">
                     <h2>Cocktail Chief</h2>
                     <p>Friend of every cocktail lover.</p>
                     <p>Used : React Native, CocktailDB</p>
