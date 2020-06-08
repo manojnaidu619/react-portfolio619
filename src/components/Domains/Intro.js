@@ -9,6 +9,7 @@ const Intro = () => {
                 <h1>Hello World! <span role="img" aria-label="earth-emoji">🌎</span>
                 <br />
                 I'm <u><strong>Manoj Naidu</strong></u></h1>
+                <p style={{marginTop: '-15px'}}>from Bangalore, India</p>
             </div>
             <div className="more">More about me <img alt="arrow" src="https://img.icons8.com/all/500/long-arrow-right.png"/></div>
         </div>
