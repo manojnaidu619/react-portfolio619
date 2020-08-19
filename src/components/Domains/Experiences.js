@@ -14,15 +14,19 @@ const Experiences = () => {
         <div className="back-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <h1 className="animate__animated animate__fadeInUp">Experience & more</h1>
             <div className="back-face-card-content">
-                <h2 style={{"fontSize":"22px"}}>Full Stack Developer Intern</h2>
-                <p style={{ "marginTop": "8px" }}>
-                    <a href="https://www.linkedin.com/company/cashtrack/" target="_blank" rel="noopener noreferrer">@CashTrack</a> · Singapore
-                </p>
                 <ul>
-                    <li>Built and launched a fully fledged multi-tenant web application for an early stage MedTech startup.</li>
-                    <li>Integrated payment gateway, worked with Contentful CMS for data storage and management.</li>
-                    <li>Worked with AWS EC2 and S3 for application hosting and media uploads respectively.</li>
-                    <li>and a lot of other new stuffs...which helped me widen my practical knowledge.</li>
+                    <li>
+                        <h2 style={{"fontSize":"22px"}}>Product Developer Intern</h2>
+                        <p style={{ "marginTop": "8px" }}>
+                            <a href="https://www.linkedin.com/company/meshai/" target="_blank" rel="noopener noreferrer">@MeshAI</a> · Canada · Remote
+                        </p>
+                    </li>
+                    <li>
+                        <h2 style={{"fontSize":"22px"}}>Full Stack Developer Intern</h2>
+                        <p style={{ "marginTop": "8px" }}>
+                            <a href="https://www.linkedin.com/company/cashtrack/" target="_blank" rel="noopener noreferrer">@CashTrack</a> · Singapore · Remote
+                        </p>
+                    </li>
                 </ul>
                 <hr />
                 <h2>Also <span role="img" aria-label="haert-emoji">❤️</span> to...</h2>
@@ -46,3 +50,9 @@ const Experiences = () => {
 }
 
 export default Experiences
+
+// <ul>
+//     <li>Built and launched a fully fledged multi-tenant web application for an early stage MedTech startup.</li>
+//     <li>Integrated payment gateway, worked with Contentful CMS for data storage and management.</li>
+//     <li>Worked with AWS EC2 and S3 for application hosting and media uploads respectively.</li>
+// </ul>
