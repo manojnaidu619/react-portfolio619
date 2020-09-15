@@ -18,15 +18,19 @@ const Projects = () => {
             <div className="back-face-card-content">
                 <div className="project">
                     <h2>BOOKMYGIG</h2>
+                    <small>Open source project</small>
                     <p>A platform where creators perform live online shows for live audiences.</p>
                     <p>Used : ReactJS, NodeJS, Redis, Socket.io</p>
                     <div className="project-links">
+                        <a alt="post-link" href="https://dev.to/manojnaidu619/bookmygig-li7" target="_blank" rel="noopener noreferrer">Dev Post</a>
+                        <span>•</span>
                         <a alt="code-link" href="https://github.com/manojnaidu619/bookmygig-frontend" target="_blank" rel="noopener noreferrer">Code</a>
                     </div>
                 </div>
                 <hr/>
                 <div className="project">
                     <h2>Cocktail Chief</h2>
+                    <small>A native mobile app</small>
                     <p>Friend of every cocktail lover.</p>
                     <p>Used : React Native, CocktailDB</p>
                     <div className="project-links">
@@ -38,6 +42,7 @@ const Projects = () => {
                 <hr />
                 <div className="project">
                     <h2>Whatsupp SSH?</h2>
+                    <small>Open source project</small>
                     <p>Access SSH/ home computer from anywhere over whatsapp.</p>
                     <p>Used : NodeJS, AWS EC2</p>
                     <div className="project-links">
@@ -49,15 +54,17 @@ const Projects = () => {
                 <hr />
                 <div className="project">
                     <h2>BrainF**k Interpreter</h2>
+                    <small>Code Interpreter</small>
                     <p>Brainfuck interpreter built using ruby.</p>
                     <p>Used : Ruby</p>
                     <div className="project-links">
-                        <a alt="code-link" href="https://github.com/manojnaidu619/Brainfuck-interpreter" target="_blank" rel="noopener noreferrer">Link</a>
+                        <a alt="code-link" href="https://github.com/manojnaidu619/Brainfuck-interpreter" target="_blank" rel="noopener noreferrer">Code</a>
                     </div>
                 </div>
                 <hr />
                 <div className="project">
                     <h2>React - Youtube</h2>
+                    <small>web application</small>
                     <p>ReactJS app replicating youtube.</p>
                     <p>Used : ReactJS, Youtube API</p>
                     <div className="project-links">

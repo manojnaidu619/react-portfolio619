@@ -20,7 +20,7 @@ const Intro = () => {
             <div className="back-face-card-content">
                 <p>I'm just a simple dude who likes to program things and believes in <strong>learn & explore</strong>. But, definitely not that guy who turns coffee to code 😐. </p>
                 <h2>Code Experience</h2>
-                <p>3 years coding (every experiences, studies, personal projects, work...)</p>
+                <p>4 years coding (every experiences, studies, personal projects, work...)</p>
                 <p>I'm open to opportunities</p>
                 <h2>Self taught?</h2>
                 <p>Yep!</p>

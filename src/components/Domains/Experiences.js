@@ -16,7 +16,7 @@ const Experiences = () => {
             <div className="back-face-card-content">
                 <ul>
                     <li>
-                        <h2 style={{"fontSize":"22px"}}>Product Developer Intern</h2>
+                        <h2 style={{ "fontSize": "22px" }}>Product Developer <small style={{ fontWeight: "300" }}>(Part-Time)</small> </h2>
                         <p style={{ "marginTop": "8px" }}>
                             <a href="https://www.linkedin.com/company/meshai/" target="_blank" rel="noopener noreferrer">@MeshAI</a> · Canada · Remote
                         </p>
