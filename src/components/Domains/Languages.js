@@ -8,7 +8,7 @@ const Languages = () => {
             <div className="front-face-card-content">         
                 <h1>Languages I speak</h1>
             </div>
-            <div className="more">See here<img alt="arrow" src="https://img.icons8.com/all/500/long-arrow-right.png"/></div>
+            <div className="more">See here<img src="https://img.icons8.com/ios/96/000000/long-arrow-right.png"/></div>
         </div>
     
     const backFace = 

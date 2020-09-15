@@ -9,7 +9,7 @@ const Skills = () => {
                 <img alt="rails-official-logo" style={{"width": "375px"}} src="https://pngimage.net/wp-content/uploads/2018/06/ruby-on-rails-png-2.png" />
                 <h1>I mostly do Ruby/Rails</h1>
             </div>
-            <div className="more">More skills <img alt="arrow" src="https://img.icons8.com/all/500/long-arrow-right.png"/></div>
+            <div className="more">More skills<img src="https://img.icons8.com/ios/96/000000/long-arrow-right.png"/></div>
         </div>
     
     const backFace = 

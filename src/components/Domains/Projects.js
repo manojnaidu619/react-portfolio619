@@ -9,7 +9,7 @@ const Projects = () => {
                 <h1>My latest project <span className="latest-project-title">BOOKMYGIG</span></h1>
                 <p>A platform for creators to perform live online shows.</p>
             </div>
-            <div className="more">View all Projects<img alt="project-link" src="https://img.icons8.com/all/500/long-arrow-right.png"/></div>
+            <div className="more">View all Projects<img src="https://img.icons8.com/ios/96/000000/long-arrow-right.png"/></div>
         </div>
     
     const backFace = 

@@ -8,7 +8,7 @@ const Hobbies = () => {
             <div className="hobbies-ff-text">
                 <h1><span role="img" aria-hidden="true">❤️</span> keyboard typing ASMR</h1>
             </div>
-            <div className="more">more interests<img alt="arrow" src="https://img.icons8.com/all/500/long-arrow-right.png"/></div>
+            <div className="more">more interests<img src="https://img.icons8.com/ios/96/000000/long-arrow-right.png"/></div>
         </div>
     
     const backFace = 
