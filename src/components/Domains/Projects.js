@@ -20,7 +20,7 @@ const Projects = () => {
                     <h2>AlphaVantage Action Bot</h2>
                     <small>Open source project</small>
                     <p>A github action to render real-time stocks/cryptocurrency charts inside readme.</p>
-                    <p>Used : Python, Github Actions, AlphaVantage API</p>
+                    <p><u>Built With</u> : Python, Github Actions, AlphaVantage API</p>
                     <div className="project-links">
                         <a alt="post-link" href="https://dev.to/manojnaidu619/alphavantage-action-bot-3d05" target="_blank" rel="noopener noreferrer">Dev Post</a>
                         <span>•</span>
@@ -32,7 +32,7 @@ const Projects = () => {
                     <h2>BOOKMYGIG</h2>
                     <small>Open source project</small>
                     <p>A platform where creators perform live online shows for live audiences.</p>
-                    <p>Used : ReactJS, NodeJS, Redis, Socket.io</p>
+                    <p><u>Built With</u> : ReactJS, NodeJS, Redis, Socket.io</p>
                     <div className="project-links">
                         <a alt="post-link" href="https://dev.to/manojnaidu619/bookmygig-li7" target="_blank" rel="noopener noreferrer">Dev Post</a>
                         <span>•</span>
@@ -44,7 +44,7 @@ const Projects = () => {
                     <h2>Cocktail Chief</h2>
                     <small>A native mobile app</small>
                     <p>Friend of every cocktail lover.</p>
-                    <p>Used : React Native, CocktailDB</p>
+                    <p><u>Built With</u> : React Native, CocktailDB</p>
                     <div className="project-links">
                         <a alt="project-link" href="https://cocktail-chief-web.now.sh/" target="_blank" rel="noopener noreferrer">Download</a>
                         <span>•</span>
@@ -56,7 +56,7 @@ const Projects = () => {
                     <h2>Whatsupp SSH?</h2>
                     <small>Open source project</small>
                     <p>Access SSH/ home computer from anywhere over whatsapp.</p>
-                    <p>Used : NodeJS, AWS EC2</p>
+                    <p><u>Built With</u> : NodeJS, AWS EC2</p>
                     <div className="project-links">
                         <a alt="post-link" href="https://dev.to/manojnaidu619/whatsupp-ssh-accessing-ssh-over-whatsapp-2g3g" target="_blank" rel="noopener noreferrer">Dev Post</a>
                         <span>•</span>
@@ -68,7 +68,7 @@ const Projects = () => {
                     <h2>BrainF**k Interpreter</h2>
                     <small>Code Interpreter</small>
                     <p>Brainfuck interpreter built using ruby.</p>
-                    <p>Used : Ruby</p>
+                    <p><u>Built With</u> : Ruby</p>
                     <div className="project-links">
                         <a alt="code-link" href="https://github.com/manojnaidu619/Brainfuck-interpreter" target="_blank" rel="noopener noreferrer">Code</a>
                     </div>
@@ -78,7 +78,7 @@ const Projects = () => {
                     <h2>React - Youtube</h2>
                     <small>web application</small>
                     <p>ReactJS app replicating youtube.</p>
-                    <p>Used : ReactJS, Youtube API</p>
+                    <p><u>Built With</u> : ReactJS, Youtube API</p>
                     <div className="project-links">
                         <a alt="code-link" href="https://github.com/manojnaidu619/react-youtube" target="_blank" rel="noopener noreferrer">Code</a>
                     </div>
@@ -88,7 +88,7 @@ const Projects = () => {
                     <h2>Milestone</h2>
                     <small>An event management site</small>
                     <p>A full-fledged Ruby on Rails app for managing university events and student registrations.</p>
-                    <p>Used : Ruby, Devise, PrawnPDF, ActiveStorage, JSON</p>
+                    <p><u>Built With</u> : Ruby, Devise, PrawnPDF, ActiveStorage, JSON</p>
                     <div className="project-links">
                         <a alt="project-link" href="https://milestone619.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a>
                         <span>•</span>
@@ -100,7 +100,7 @@ const Projects = () => {
                     <h2>Logging Good</h2>
                     <small>A friendly ruby gem</small>
                     <p>Gem to make Rails logging more intuitive by presenting essential data in a tabular form.</p>
-                    <p>Used : Ruby, Rubygem, RSpec, TravisCI</p>
+                    <p><u>Built With</u> : Ruby, Rubygem, RSpec, TravisCI</p>
                     <div className="project-links">
                         <a alt="code-link" href="https://github.com/manojnaidu619/logging-good" target="_blank" rel="noopener noreferrer">Code</a>
                         <span>•</span>
@@ -112,7 +112,7 @@ const Projects = () => {
                     <h2>Pickup Master</h2>
                     <small>Google assistant action</small>
                     <p>A voice invoked google action voice built with Dialogflow API + Firebase Cloud functions.</p>
-                    <p>Used : G-assistant, G-actions, Dialogflow, firebase-serverless</p>
+                    <p><u>Built With</u> : G-assistant, G-actions, Dialogflow, firebase-serverless</p>
                     <div className="project-links">
                         <a alt="project-link" href="https://assistant.google.com/services/a/uid/00000081366fbad1" target="_blank" rel="noopener noreferrer" >Visit</a>
                     </div>
@@ -122,7 +122,7 @@ const Projects = () => {
                     <h2>Tasky</h2>
                     <small>Task organizer app</small>
                     <p>Vue.js + Rails, makes Managing Tasks and To-Do's much more cushier.</p>
-                    <p>Used : Ruby, VueJS, RailsAPI, JSON</p>
+                    <p><u>Built With</u> : Ruby, VueJS, RailsAPI, JSON</p>
                     <div className="project-links">
                         <a alt="project-link" href="https://tasky916.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a>
                         <span>•</span>
@@ -134,7 +134,7 @@ const Projects = () => {
                     <h2>Readit</h2>
                     <small>App for sharing readable links</small>
                     <p>Rails app for sharing legible links, with like and dislike feature being supported.</p>
-                    <p>Used : Ruby, Votable, Likeable, Commentable, Devise</p>
+                    <p><u>Built With</u> : Ruby, Votable, Likeable, Commentable, Devise</p>
                     <div className="project-links">
                         <a alt="project-link" href="https://readit619.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a>
                         <span>•</span>
@@ -146,7 +146,7 @@ const Projects = () => {
                     <h2>AlphaBlog</h2>
                     <small>A blog (My first ever rails application)</small>
                     <p>Blog with CRUD operations + auto fetch profile picture with Gravatar API.</p>
-                    <p>Used : Ruby, Devise, Gravatar, JSON</p>
+                    <p><u>Built With</u> : Ruby, Devise, Gravatar, JSON</p>
                     <div className="project-links">
                         <a alt="project-link" href="https://alphablog619.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a>
                         <span>•</span>
