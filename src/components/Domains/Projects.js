@@ -15,19 +15,19 @@ const Projects = () => {
     const backFace = 
         <div className="back-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <h1 className="animate__animated animate__fadeInUp">Projects</h1>
-            <div className="project">
-                <h2>AlphaVantage Action Bot</h2>
-                <small>Open source project</small>
-                <p>A github action to render real-time stocks/cryptocurrency charts inside readme.</p>
-                <p>Used : Python, Github Actions, AlphaVantage API</p>
-                <div className="project-links">
-                    <a alt="post-link" href="https://dev.to/manojnaidu619/alphavantage-action-bot-3d05" target="_blank" rel="noopener noreferrer">Dev Post</a>
-                    <span>•</span>
-                    <a alt="code-link" href="https://github.com/manojnaidu619/AlphaVantage-Action-Bot" target="_blank" rel="noopener noreferrer">Code</a>
-                </div>
-            </div>
-            <hr/>
             <div className="back-face-card-content">
+                <div className="project">
+                    <h2>AlphaVantage Action Bot</h2>
+                    <small>Open source project</small>
+                    <p>A github action to render real-time stocks/cryptocurrency charts inside readme.</p>
+                    <p>Used : Python, Github Actions, AlphaVantage API</p>
+                    <div className="project-links">
+                        <a alt="post-link" href="https://dev.to/manojnaidu619/alphavantage-action-bot-3d05" target="_blank" rel="noopener noreferrer">Dev Post</a>
+                        <span>•</span>
+                        <a alt="code-link" href="https://github.com/manojnaidu619/AlphaVantage-Action-Bot" target="_blank" rel="noopener noreferrer">Code</a>
+                    </div>
+                </div>
+                <hr/>
                 <div className="project">
                     <h2>BOOKMYGIG</h2>
                     <small>Open source project</small>
