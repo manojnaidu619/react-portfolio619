@@ -6,8 +6,8 @@ const Projects = () => {
     const frontFace =
         <div className="front-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <div className="front-face-card-content">
-                <h1>My latest project <span className="latest-project-title">BOOKMYGIG</span></h1>
-                <p>A platform for creators to perform live online shows.</p>
+                <h1>My latest project <span className="latest-project-title">AlphaVantage Action Bot</span></h1>
+                <p>A github action that renders real-time stocks/cryptocurrency charts.</p>
             </div>
             <div className="more">View all Projects<img src="https://img.icons8.com/ios/96/000000/long-arrow-right.png"/></div>
         </div>
@@ -15,6 +15,18 @@ const Projects = () => {
     const backFace = 
         <div className="back-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <h1 className="animate__animated animate__fadeInUp">Projects</h1>
+            <div className="project">
+                <h2>AlphaVantage Action Bot</h2>
+                <small>Open source project</small>
+                <p>A github action to render real-time stocks/cryptocurrency charts inside readme.</p>
+                <p>Used : Python, Github Actions, AlphaVantage API</p>
+                <div className="project-links">
+                    <a alt="post-link" href="https://dev.to/manojnaidu619/alphavantage-action-bot-3d05" target="_blank" rel="noopener noreferrer">Dev Post</a>
+                    <span>•</span>
+                    <a alt="code-link" href="https://github.com/manojnaidu619/AlphaVantage-Action-Bot" target="_blank" rel="noopener noreferrer">Code</a>
+                </div>
+            </div>
+            <hr/>
             <div className="back-face-card-content">
                 <div className="project">
                     <h2>BOOKMYGIG</h2>
