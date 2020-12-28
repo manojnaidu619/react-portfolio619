@@ -43,7 +43,7 @@ const Contact = () => {
     } else {
         cardContent = 
             <div className="front-face-card-content contact-card">  
-            <h1>Contact Me</h1> 
+            <h1>Contact/Feedback Section</h1> 
             <div className="contact-form">
                 <form action="https://formspree.io/mpzywrqy" method="POST" onSubmit={onSubmitHandler}>
                     <div className="name-div">
@@ -56,7 +56,7 @@ const Contact = () => {
                     </div>
                     <div className="msg-div">
                         <label htmlFor="message">Message</label><br/>
-                        <textarea name="message" onChange={e => changeMessage(e.target.value)} value={message} />
+                        <textarea name="message" onChange={e => changeMessage(e.target.value)} value={message} placeholder="Details/Suggestions goes here..." />
                     </div>
                     <button className="form-submit-btn" type="submit">SEND</button>
                 </form>
