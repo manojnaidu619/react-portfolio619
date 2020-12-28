@@ -43,7 +43,7 @@ const Contact = () => {
     } else {
         cardContent = 
             <div className="front-face-card-content contact-card">  
-            <h1>Contact/Feedback Section</h1> 
+            <h2 style="margin:10px 0px">Contact/Feedback Section</h2>
             <div className="contact-form">
                 <form action="https://formspree.io/mpzywrqy" method="POST" onSubmit={onSubmitHandler}>
                     <div className="name-div">
