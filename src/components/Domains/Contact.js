@@ -56,7 +56,7 @@ const Contact = () => {
                     </div>
                     <div className="msg-div">
                         <label htmlFor="message">Message</label><br/>
-                        <textarea name="message" onChange={e => changeMessage(e.target.value)} value={message} placeholder="Details/Suggestions goes here..." />
+                        <textarea name="message" onChange={e => changeMessage(e.target.value)} value={message} />
                     </div>
                     <button className="form-submit-btn" type="submit">SEND</button>
                 </form>
