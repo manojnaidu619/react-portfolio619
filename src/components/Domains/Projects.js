@@ -22,9 +22,9 @@ const Projects = () => {
                     <p>A github action to render real-time stocks/cryptocurrency charts inside readme.</p>
                     <p><u>Built With</u> : Python, Github Actions, AlphaVantage API</p>
                     <div className="project-links">
-                        <a alt="post-link" href="https://dev.to/manojnaidu619/alphavantage-action-bot-3d05" target="_blank" rel="noopener noreferrer">Dev Post</a>
+                        <b><a alt="post-link" href="https://dev.to/manojnaidu619/alphavantage-action-bot-3d05" target="_blank" rel="noopener noreferrer">Dev Post</a></b>
                         <span>•</span>
-                        <a alt="code-link" href="https://github.com/manojnaidu619/AlphaVantage-Action-Bot" target="_blank" rel="noopener noreferrer">Code</a>
+                        <b><a alt="code-link" href="https://github.com/manojnaidu619/AlphaVantage-Action-Bot" target="_blank" rel="noopener noreferrer">Code</a></b>
                     </div>
                 </div>
                 <hr/>
@@ -34,9 +34,9 @@ const Projects = () => {
                     <p>A platform where creators perform live online shows for live audiences.</p>
                     <p><u>Built With</u> : ReactJS, NodeJS, Redis, Socket.io</p>
                     <div className="project-links">
-                        <a alt="post-link" href="https://dev.to/manojnaidu619/bookmygig-li7" target="_blank" rel="noopener noreferrer">Dev Post</a>
+                        <b><a alt="post-link" href="https://dev.to/manojnaidu619/bookmygig-li7" target="_blank" rel="noopener noreferrer">Dev Post</a></b>
                         <span>•</span>
-                        <a alt="code-link" href="https://github.com/manojnaidu619/bookmygig-frontend" target="_blank" rel="noopener noreferrer">Code</a>
+                        <b><a alt="code-link" href="https://github.com/manojnaidu619/bookmygig-frontend" target="_blank" rel="noopener noreferrer">Code</a></b>
                     </div>
                 </div>
                 <hr/>
@@ -46,9 +46,9 @@ const Projects = () => {
                     <p>Friend of every cocktail lover.</p>
                     <p><u>Built With</u> : React Native, CocktailDB</p>
                     <div className="project-links">
-                        <a alt="project-link" href="https://cocktail-chief-web.now.sh/" target="_blank" rel="noopener noreferrer">Download</a>
+                        <b><a alt="project-link" href="https://cocktail-chief-web.now.sh/" target="_blank" rel="noopener noreferrer">Download</a></b>
                         <span>•</span>
-                        <a alt="code-link" href="https://github.com/manojnaidu619/cocktail-chief" target="_blank" rel="noopener noreferrer">Code</a>
+                        <b><a alt="code-link" href="https://github.com/manojnaidu619/cocktail-chief" target="_blank" rel="noopener noreferrer">Code</a></b>
                     </div>
                 </div>
                 <hr />
@@ -58,9 +58,9 @@ const Projects = () => {
                     <p>Access SSH/ home computer from anywhere over whatsapp.</p>
                     <p><u>Built With</u> : NodeJS, AWS EC2</p>
                     <div className="project-links">
-                        <a alt="post-link" href="https://dev.to/manojnaidu619/whatsupp-ssh-accessing-ssh-over-whatsapp-2g3g" target="_blank" rel="noopener noreferrer">Dev Post</a>
+                        <b><a alt="post-link" href="https://dev.to/manojnaidu619/whatsupp-ssh-accessing-ssh-over-whatsapp-2g3g" target="_blank" rel="noopener noreferrer">Dev Post</a></b>
                         <span>•</span>
-                        <a alt="code-link" href="https://github.com/manojnaidu619/Whatsupp-SSH" target="_blank" rel="noopener noreferrer">Code</a>
+                        <b><a alt="code-link" href="https://github.com/manojnaidu619/Whatsupp-SSH" target="_blank" rel="noopener noreferrer">Code</a></b>
                     </div>
                 </div>
                 <hr />
@@ -70,7 +70,7 @@ const Projects = () => {
                     <p>Brainfuck interpreter built using ruby.</p>
                     <p><u>Built With</u> : Ruby</p>
                     <div className="project-links">
-                        <a alt="code-link" href="https://github.com/manojnaidu619/Brainfuck-interpreter" target="_blank" rel="noopener noreferrer">Code</a>
+                        <b><a alt="code-link" href="https://github.com/manojnaidu619/Brainfuck-interpreter" target="_blank" rel="noopener noreferrer">Code</a></b>
                     </div>
                 </div>
                 <hr />
@@ -80,7 +80,7 @@ const Projects = () => {
                     <p>ReactJS app replicating youtube.</p>
                     <p><u>Built With</u> : ReactJS, Youtube API</p>
                     <div className="project-links">
-                        <a alt="code-link" href="https://github.com/manojnaidu619/react-youtube" target="_blank" rel="noopener noreferrer">Code</a>
+                        <b><a alt="code-link" href="https://github.com/manojnaidu619/react-youtube" target="_blank" rel="noopener noreferrer">Code</a></b>
                     </div>
                 </div>
                 <hr />
@@ -90,9 +90,9 @@ const Projects = () => {
                     <p>A full-fledged Ruby on Rails app for managing university events and student registrations.</p>
                     <p><u>Built With</u> : Ruby, Devise, PrawnPDF, ActiveStorage, JSON</p>
                     <div className="project-links">
-                        <a alt="project-link" href="https://milestone619.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a>
+                        <b><a alt="project-link" href="https://milestone619.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a></b>
                         <span>•</span>
-                        <a alt="code-link" href="https://github.com/manojnaidu619/milestone" target="_blank" rel="noopener noreferrer">Code</a>
+                        <b><a alt="code-link" href="https://github.com/manojnaidu619/milestone" target="_blank" rel="noopener noreferrer">Code</a></b>
                     </div>
                 </div>
                 <hr />
@@ -102,9 +102,9 @@ const Projects = () => {
                     <p>Gem to make Rails logging more intuitive by presenting essential data in a tabular form.</p>
                     <p><u>Built With</u> : Ruby, Rubygem, RSpec, TravisCI</p>
                     <div className="project-links">
-                        <a alt="code-link" href="https://github.com/manojnaidu619/logging-good" target="_blank" rel="noopener noreferrer">Code</a>
+                        <b><a alt="code-link" href="https://github.com/manojnaidu619/logging-good" target="_blank" rel="noopener noreferrer">Code</a></b>
                         <span>•</span>
-                        <a alt="project-link" href="https://rubygems.org/profiles/manojnaidu619" target="_blank" rel="noopener noreferrer">All Gems</a>
+                        <b><a alt="project-link" href="https://rubygems.org/profiles/manojnaidu619" target="_blank" rel="noopener noreferrer">All Gems</a></b>
                     </div>
                 </div>
                 <hr/>
@@ -114,7 +114,7 @@ const Projects = () => {
                     <p>A voice invoked google action voice built with Dialogflow API + Firebase Cloud functions.</p>
                     <p><u>Built With</u> : G-assistant, G-actions, Dialogflow, firebase-serverless</p>
                     <div className="project-links">
-                        <a alt="project-link" href="https://assistant.google.com/services/a/uid/00000081366fbad1" target="_blank" rel="noopener noreferrer" >Visit</a>
+                        <b><a alt="project-link" href="https://assistant.google.com/services/a/uid/00000081366fbad1" target="_blank" rel="noopener noreferrer" >Visit</a></b>
                     </div>
                 </div>
                 <hr/>
@@ -124,9 +124,9 @@ const Projects = () => {
                     <p>Vue.js + Rails, makes Managing Tasks and To-Do's much more cushier.</p>
                     <p><u>Built With</u> : Ruby, VueJS, RailsAPI, JSON</p>
                     <div className="project-links">
-                        <a alt="project-link" href="https://tasky916.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a>
+                        <b><a alt="project-link" href="https://tasky916.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a></b>
                         <span>•</span>
-                        <a alt="code-link" href="https://github.com/manojnaidu619/task-organizer-vue-rails" target="_blank" rel="noopener noreferrer">Code</a>
+                        <b><a alt="code-link" href="https://github.com/manojnaidu619/task-organizer-vue-rails" target="_blank" rel="noopener noreferrer">Code</a></b>
                     </div>
                 </div>
                 <hr/>
@@ -136,9 +136,9 @@ const Projects = () => {
                     <p>Rails app for sharing legible links, with like and dislike feature being supported.</p>
                     <p><u>Built With</u> : Ruby, Votable, Likeable, Commentable, Devise</p>
                     <div className="project-links">
-                        <a alt="project-link" href="https://readit619.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a>
+                        <b><a alt="project-link" href="https://readit619.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a></b>
                         <span>•</span>
-                        <a alt="code-link" href="https://github.com/manojnaidu619/Read-It" target="_blank" rel="noopener noreferrer">Code</a>
+                        <b><a alt="code-link" href="https://github.com/manojnaidu619/Read-It" target="_blank" rel="noopener noreferrer">Code</a></b>
                     </div>
                 </div>
                 <hr/>
@@ -148,9 +148,9 @@ const Projects = () => {
                     <p>Blog with CRUD operations + auto fetch profile picture with Gravatar API.</p>
                     <p><u>Built With</u> : Ruby, Devise, Gravatar, JSON</p>
                     <div className="project-links">
-                        <a alt="project-link" href="https://alphablog619.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a>
+                        <b><a alt="project-link" href="https://alphablog619.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit</a></b>
                         <span>•</span>
-                        <a alt="code-link" href="https://github.com/manojnaidu619/Alpha_blog" target="_blank" rel="noopener noreferrer">Code</a>
+                        <b><a alt="code-link" href="https://github.com/manojnaidu619/Alpha_blog" target="_blank" rel="noopener noreferrer">Code</a></b>
                     </div>
                 </div>
             </div>
