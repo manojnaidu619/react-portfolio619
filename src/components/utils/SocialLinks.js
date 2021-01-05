@@ -10,7 +10,7 @@ const SocialLinks = () => {
             <a alt="rubygems" href="https://rubygems.org/profiles/manojnaidu619" target="_blank" rel="noopener noreferrer" aria-label="rubygems-link">
                 <img src="/images/ruby.png" width="30" alt="rubygems"/>
             </a>
-            <a alt="linkedin" href="https://www.linkedin.com/in/manoj-kumar-b65394159" target="_blank" rel="noopener noreferrer" aria-label="linkedin-link">
+            <a alt="linkedin" href="https://www.linkedin.com/in/manojkumar-1999/" target="_blank" rel="noopener noreferrer" aria-label="linkedin-link">
                 <img src="/images/linkedin.png" width="30" alt="linkedin"/>
             </a>
             <a alt="dev.to" href="https://dev.to/manojnaidu619" target="_blank" rel="noopener noreferrer" aria-label="devto-link">
