@@ -56,7 +56,7 @@ const Projects = () => {
                     <h2>Whatsupp SSH?</h2>
                     <small>Open source project</small>
                     <p>Access SSH/ home computer from anywhere over whatsapp.</p>
-                    <p><u>Built With</u> : NodeJS, AWS EC2</p>
+                    <p><u>Built With</u> : Twilio, NodeJS, AWS EC2</p>
                     <div className="project-links">
                         <b><a alt="post-link" href="https://dev.to/manojnaidu619/whatsupp-ssh-accessing-ssh-over-whatsapp-2g3g" target="_blank" rel="noopener noreferrer">Dev Post</a></b>
                         <span>•</span>
