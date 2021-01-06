@@ -11,7 +11,7 @@ const Intro = () => {
                 I'm <u><strong>Manoj Kumar</strong></u></h1>
                 <p style={{marginTop: '-15px'}}>from Bangalore, India</p>
             </div>
-            <div className="more">More About Me<img src="https://img.icons8.com/ios/96/000000/long-arrow-right.png"/></div>
+            <div className="more">More About Me<img alt="right-arrow" src="https://img.icons8.com/ios/96/000000/long-arrow-right.png"/></div>
         </div>
     
     const backFace = 

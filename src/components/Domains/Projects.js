@@ -9,7 +9,7 @@ const Projects = () => {
                 <h1>My latest project <span className="latest-project-title">AlphaVantage Action Bot</span></h1>
                 <p>A github action that renders real-time stocks/cryptocurrency charts.</p>
             </div>
-            <div className="more">View all Projects<img src="https://img.icons8.com/ios/96/000000/long-arrow-right.png"/></div>
+            <div className="more">View all Projects<img alt="right-arrow" src="https://img.icons8.com/ios/96/000000/long-arrow-right.png"/></div>
         </div>
     
     const backFace = 
