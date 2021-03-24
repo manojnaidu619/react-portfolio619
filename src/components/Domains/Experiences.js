@@ -16,6 +16,12 @@ const Experiences = () => {
             <div className="back-face-card-content">
                 <ul>
                     <li>
+                        <h2 style={{ "fontSize": "22px" }}>Software Developer</h2>
+                        <p style={{ "marginTop": "8px" }}>
+                            <a href="https://www.linkedin.com/company/oncehub" target="_blank" rel="noopener noreferrer">@OnceHub</a> · Israel · Remote
+                        </p>
+                    </li>
+                    <li>
                         <h2 style={{ "fontSize": "22px" }}>Product Developer <small style={{ fontWeight: "300" }}>(Part-Time)</small> </h2>
                         <p style={{ "marginTop": "8px" }}>
                             <a href="https://www.linkedin.com/company/meshai/" target="_blank" rel="noopener noreferrer">@MeshAI</a> · Canada · Remote
