@@ -6,8 +6,8 @@ const Projects = () => {
     const frontFace =
         <div className="front-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <div className="front-face-card-content">
-                <h1>My latest project <span className="latest-project-title">AlphaVantage Action Bot</span></h1>
-                <p>A github action that renders real-time stocks/cryptocurrency charts.</p>
+                <h1>My latest project</h1>
+                <h1 className="latest-project-title">BlockEHR</h1>
             </div>
             <div className="more">View all Projects<img alt="right-arrow" src="https://img.icons8.com/ios/96/000000/long-arrow-right.png"/></div>
         </div>
@@ -16,6 +16,16 @@ const Projects = () => {
         <div className="back-face-card animate__animated animate__fadeIn animate__delay-0.5s">
             <h1 className="animate__animated animate__fadeInUp">Projects</h1>
             <div className="back-face-card-content">
+                <div className="project">
+                    <h2>BlockEHR</h2>
+                    <small>private project</small>
+                    <p>A full-fledged EHR solution built on top of blockchain and smart contracts.</p>
+                    <p><u>Built With</u> : Solidity, ReactJS, Truffle, Ganache, Web3.js and many more...</p>
+                    <div className="project-links">
+                        <b><a alt="post-link" href="https://www.youtube.com/watch?v=0Nc51kbEMDc" target="_blank" rel="noopener noreferrer">Video Demo</a></b>
+                    </div>
+                </div>
+                <hr/>
                 <div className="project">
                     <h2>AlphaVantage Action Bot</h2>
                     <small>Open source project</small>

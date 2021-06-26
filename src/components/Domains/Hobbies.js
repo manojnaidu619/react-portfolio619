@@ -23,12 +23,7 @@ const Hobbies = () => {
                         <a alt="yt-link" href="https://youtu.be/Tn8IDh21AVY?t=655" target="_blank" rel="noopener noreferrer"> Here is my favourite one!</a>
                     </li>
                     <li>love to play Badminton <span role="img" aria-hidden="true">🏸</span></li>
-                    <li>
-                        Always fascinated to learn something new in science like 
-                        <a alt="wiki-link" href="https://en.wikipedia.org/wiki/Mind_uploading" target="_blank" rel="noopener noreferrer"> Mind Uploading</a>
-                        . Which I stumbled upon recently.
-                    </li>
-                    <li>and a whole lot more...</li>
+                    <li>Ahh... I've hit my max thinking capacity 🥵. Let's end it here.</li>
                 </ul>
             </div>
         </div>
